@@ -47,22 +47,10 @@ function getBonus(employee) {
     return newArray;
 }
 
-var atticusSTI = getBonus(atticus);
-var jemSTI = getBonus(jem);
-var booSTI = getBonus(boo);
-var scoutSTI = getBonus(scout);
-
-
-
 var outputArray = [];
-
-
-
-
-
 
 for (var i = 0; i < employees.length; i++) {
     outputArray = getBonus(employees[i]);
-    document.getElementById('table').innerHTML += "<tr> <td> "+ outputArray[0] +"</td> <td> "+ outputArray[1] +"</td> <td> "+ outputArray[2] +"</td><td> "+ outputArray[3] +"</td> </tr>";
-
+    document.getElementById('table').innerHTML += "<tr> <td> " + outputArray[0] + "</td> <td> "
+    + outputArray[1] + "</td> <td> " + outputArray[2] + "</td><td> " + outputArray[3] + "</td> </tr>";
 }
