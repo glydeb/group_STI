@@ -1,3 +1,8 @@
+#group members include
+##Glyde Burdick
+##Anthony Peloza
+##Sion Owen
+
 # Group based STI activity
 
 You are going to write a single JavaScript file to automatically calculate employee STI (‘short term incentive’ or ‘bonus’) for a company.
@@ -21,11 +26,11 @@ To calculate an individuals STI:
 - Those who have a rating of a 3 should receive a base bonus of 4% of their base annual income.
 - Those who have a rating of a 4 should receive a base bonus of 6% of their base annual income.
 - Those who have a rating of a 5 should receive a base bonus of 10% of their base annual income.
-- If they have 4 employee numbers, this means they have been with the company for longer than 15 years, 
+- If they have 4 employee numbers, this means they have been with the company for longer than 15 years,
 and should receive an additional 5%.
-- However, if their annual income is greater than $65,000, they should have their bonus adjusted down 1%. 
+- However, if their annual income is greater than $65,000, they should have their bonus adjusted down 1%.
 - No bonus can be above 13% total.
 
 You may abstract out the STI calculation into a second function if you like, but this is not mandatory.
 
-Finally, iterate over the `employees` array and input each index of the array to your first function, and `console.log` the results of each iteration. 
+Finally, iterate over the `employees` array and input each index of the array to your first function, and `console.log` the results of each iteration.
