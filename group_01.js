@@ -51,6 +51,5 @@ var outputArray = [];
 
 for (var i = 0; i < employees.length; i++) {
     outputArray = getBonus(employees[i]);
-    document.getElementById('table').innerHTML += "<tr> <td> " + outputArray[0] + "</td> <td> "
-    + outputArray[1] + "</td> <td> " + outputArray[2] + "</td><td> " + outputArray[3] + "</td> </tr>";
+    document.getElementById('table').innerHTML += "<tr> <td> " + outputArray[0] + "</td> <td> "+ outputArray[1] + "</td> <td> " + outputArray[2] + "</td><td> " + outputArray[3] + "</td> </tr>";
 }
